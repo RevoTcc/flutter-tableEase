@@ -1,0 +1,59 @@
+name: table_ease
+description: Table Ease application made with flutter
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.2.6
+  cloud_firestore: ^4.3.2
+  firebase_database: ^10.0.13
+  google_fonts: ^4.0.3
+  intl: ^0.17.0
+  timeago: ^3.3.0
+  timeago_flutter: ^1.2.0
+  money_formatter: ^0.0.3
+  numberpicker: ^2.1.1
+  extended_masked_text: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.1.0
+  introduction_screen: ^3.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  git:
+    url: https://github.com/Davenchy/flutter_launcher_icons.git
+    ref: fixMinSdkParseFlutter2.8
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true

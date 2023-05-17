@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871481076434",
+    "project_id": "tableease",
+    "storage_bucket": "tableease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871481076434:android:94795e78bc388dfbee1b0b",
+        "android_client_info": {
+          "package_name": "com.revo.table_ease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871481076434-dc51ar9nd2c59pcd5u1mb71dk3ctsvio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8M-jYKKdokMbFPzpNQJ8XwI4F39Krgk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871481076434-dc51ar9nd2c59pcd5u1mb71dk3ctsvio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

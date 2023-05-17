@@ -1,0 +1,4 @@
+#Wed May 17 12:23:15 BRT 2023
+base.0=/home/matheus/AndroidStudioProjects/flutter-tableEase/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
