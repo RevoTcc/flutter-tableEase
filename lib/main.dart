@@ -2,13 +2,16 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
+import 'package:table_ease/firebase_options.dart';
 import 'package:table_ease/utils/theme.dart';
 import 'package:table_ease/views/redirect_view.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   Intl.defaultLocale = 'pt_BR';
   timeago.setLocaleMessages('pt_br', timeago.PtBrMessages());
 

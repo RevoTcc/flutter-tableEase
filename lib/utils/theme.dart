@@ -4,6 +4,7 @@ import 'package:table_ease/utils/fonts.dart';
 
 class AppTheme {
   static ThemeData get theme => ThemeData(
+        useMaterial3: true,
         textTheme: AppFonts.text,
         focusColor: AppColors.yellow,
         brightness: Brightness.light,
